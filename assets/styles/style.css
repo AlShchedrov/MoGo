@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+ul, ol, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.content {
+    max-width: calc(1170px + 15px * 2);
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto; 
+}
+.before-title {
+    font-family: Kaushan Script;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: center;
+    color: #2D3033;
+
+}
+.title {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42px;
+    text-align: center;
+    color: #2D3033;
+
+}
+.line {
+    width: 170px;
+	height: 4px;
+	background-color: #F38281;
+    margin: 0 auto;
+}
+.description {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #000;
+
+}
+@media (max-width: 1024px) {
+    .content {
+        max-width: calc(992px + 15px * 2);
+    }
+    .before-title {
+        font-size: 24px;
+        line-height: 35;
+    }
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .line {
+        width: 148px;
+    }
+    .description {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        max-width: calc(288px + 15px * 2);
+        display: flex;
+        flex-direction: column;
+    }
+    .title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .line {
+        width: 134px;
+    }
+    .subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
