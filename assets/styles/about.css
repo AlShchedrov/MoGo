@@ -19,9 +19,18 @@
     width: 370px;
     height: 338px;
     position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(360deg, rgba(237, 215, 137) 0%, rgba(233, 130, 131) 100%);
+}
+.team--top-card:hover {
+    width: 370px;
+    height: 338px;
+    position: absolute;
     top: -16px;
     left: -16px;
     background: linear-gradient(360deg, rgba(237, 215, 137) 0%, rgba(233, 130, 131) 100%);
+    transition: 0.5s;
 }
 .team--top-card {
     display: flex;
