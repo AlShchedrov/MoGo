@@ -5,10 +5,29 @@
 .title {
     padding: 50px;
 }
+
 .services--about {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 40px 30px;
     margin: 40px 0;
+}
+@media (max-width: 1024px) {
+    .services--about {
+        width: 313px;
+        height: 117px;
+    }
+}
+@media (max-width:768px) {
+    .line {
+        margin-bottom: 60px;
+    }
+    .services--about {
+        width: 288px;
+        height: 94px;
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+    
 }
