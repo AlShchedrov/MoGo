@@ -1,0 +1,13 @@
+.design {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url(/assets/images/design/Rectangle\ 9.png);
+}
+.before-title {
+    padding-top: 60px;
+}
+.title {
+    padding: 40px 0;
+}
+.line {
+    margin-bottom: 60px;
+}
