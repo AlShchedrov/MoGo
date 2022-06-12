@@ -1,13 +1,62 @@
 .design {
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
     url(/assets/images/design/Rectangle\ 9.png);
+    background-repeat: no-repeat;
 }
-.before-title {
+.before {
     padding-top: 60px;
+    font-family: Kaushan Script;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    
 }
 .title {
     padding: 40px 0;
 }
-.line {
-    margin-bottom: 60px;
+
+.design-tablet {
+    display: flex;
+    position: relative;
+    padding-bottom: 57px;
+    justify-content: center;
+}
+.design--phone {
+    position: absolute;
+    top: 195px;
+    right: 210px;
+}
+@media (max-width: 1024px) {
+    .design--tablet-img {
+        width: 793px;
+        height: 356px;
+    }
+    .design--phone {
+        width: 135px;
+        height: 279px;
+        top: 140px;
+        right: 240px;
+    }
+}
+@media (max-width: 768px) {
+    .design--tablet-img {
+        width: 286px;
+        height: 219px;
+    }
+    .design--phone {
+        width: 85px;
+        height: 175px;
+        top: 140px;
+        right: 240px;
+    }
+    .title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .before {
+        font-size: 30px;
+        line-height: 43px;
+    }
+
 }
