@@ -40,15 +40,15 @@
     }
 }
 @media (max-width: 768px) {
+    .design--phone {
+        width: 54px;
+        height: 106px;
+        top: 90px;
+        right: 74px;
+    }
     .design--tablet-img {
         width: 286px;
         height: 219px;
-    }
-    .design--phone {
-        width: 85px;
-        height: 175px;
-        top: 140px;
-        right: 240px;
     }
     .title {
         font-size: 36px;
@@ -58,5 +58,7 @@
         font-size: 30px;
         line-height: 43px;
     }
-
+    .line {
+        margin: 0 auto;
+    }
 }
