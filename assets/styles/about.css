@@ -1,0 +1,213 @@
+.before-title {
+    margin-top: 42px;
+}
+.title {
+    margin: 30px 0;
+}
+.description {
+    margin-top: 30px;
+}
+.about--projects {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+.about--team {
+    position: relative;
+}
+.team--top-card {
+    width: 370px;
+    height: 338px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+}
+.team--top-card:hover {
+    width: 370px;
+    height: 338px;
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+    transition: all 0.5s ease;
+}
+.team--top-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team--top-card p {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    margin-top: 36px;
+}
+.about--complete-card {
+    display: grid;
+    grid-template-columns: 170px 234px 234px 234px 234px 234px 170px;
+    height: 252px;
+    margin: 106px auto 10px;
+    justify-content: center;
+}
+.card {
+    background-color: #95E1D3;
+    column-gap: 1px;
+    border-right: 1px solid #FFFFFF;
+    text-align: center;
+    padding-top: 40px;
+}
+.card span {
+    font-family: Raleway;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    color: #FFFFFF;
+    
+}
+.card p {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 40px;
+}
+.team-img2 {
+    display: none;
+}
+.about--team-mobile {
+    display: none;
+}
+@media (max-width: 1024px) {
+    .team--top-card {
+        width: 320px;
+        height: 282px;
+        top: 0;
+        left: 0;
+    }
+    .team--top-card p {
+        margin-top: 16px;
+    }
+    .team--top-card:hover {
+        width: 320px;
+        height: 282px;
+        top: -6px;
+        left: -6px;
+    }
+    .about--projects img {
+        width: 320px;
+        height: 282px;
+    }
+    .about--complete-card {
+        grid-template-columns: 16px 198px 198px 198px 198px 198px 16px;
+        height: 168px;
+    }
+    .about--complete-card {
+        margin: 66px auto 20px;
+    }
+    
+    .card span {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .card p {
+        font-size: 18px;
+        line-height: 21px;
+        padding: 10px;
+    }
+}
+@media (max-width:768px) {
+    .about--projects {
+        flex-direction: column;
+    }
+    .team-img1 {
+        width: 288px;
+        height: 258px;
+    }
+    .about--projects img {
+        width: 288px;
+        height: 258px;
+    }
+    .team--top-card {
+        flex-direction: row;
+        width: 288px;
+        height: 83px;
+        position: absolute;
+        top: 175px;
+        left: 0;
+    }
+    .team--top-card p {
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: center;
+        color: #fff;
+        padding: 36px;
+    }
+    .team-img1 {
+        display: none;
+    }
+    .team-img2 {
+        display: block;
+    }
+    .team-img3 {
+        display: none;
+    }
+    .about--team-mobile {
+        display: block;
+        position: relative;
+        margin-top: 16px;
+    }
+    .team--top-card2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 288px;
+        height: 83px;
+        position: absolute;
+        top: 175px;
+        left: 0;        
+        background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+    }
+    .team--top-card2 p {
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: center;
+        color: #fff;
+        padding: 36px;
+    }    
+    .complete--card-empty {
+        display: none;
+    }
+    .about--complete-content {
+        display: block;
+        max-width: 320px;
+        background-color: #95E1D3;
+        margin: 0 auto;
+    }
+    .about--complete-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 288px;
+        height: 100%;        
+    }
+    .complete--card-24 {
+        grid-column: 1 / 3;
+    }
+    .card {
+        border-bottom: 1px solid #FFFFFF;
+        border-right: none;
+        background-color: transparent;
+    }
+    .complete--card-24 {
+        border-bottom: none;
+    }
+}
